@@ -1,21 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../layouts/header';
 
 function Excursion(props) {
 	return (
 		<div>
 			<nav>
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
-					</li>
-					<li>
-						<Link to="/rooms">Room</Link>
-					</li>
-					<li>
-						<Link to="/excursion">Excursion</Link>
-					</li>
-				</ul>
+				<Header />
 			</nav>
 			<h1>Excursion</h1>
 		</div>
